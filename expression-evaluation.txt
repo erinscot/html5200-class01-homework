@@ -1,0 +1,58 @@
+//starts with the third problem on the homwork, since we didn't do it in class.
+
+true && 5 * 2 > (3 + 3) * 2
+true && 5 * 2 > 6 * 2
+true && 10 > 12
+true && false
+false
+
+true && true || false
+true || false
+true
+
+true && (true || false)
+true && true
+true
+
+false && false || true
+true || true
+true
+
+false && (false || true)
+false && true
+false
+
+(false && false) && false && (true || false) || false
+true && false && true || false
+true && false && true
+false
+
+4 == "4"
+true
+
+4 == "4" || 4 == 4
+true
+
+10 % 3 == 10.0 % 3
+1 == 1
+true
+
+10 * (5 / 2.0) == 10.0 * (5 / 2)
+10 * 2.5 == 10.0 * 2.5
+25 == 25.0
+true
+
+10 * 5 / 2 > 10 * (5 / 2)
+50/2 > 10 * 2.5
+25 > 25.0
+false
+
+2 * 2 ** 3 == (2 * 2) ** 3
+2 * 8 == 64
+16 == 64
+false
+
+(10 - 4) < +6 || -(2 * -4) > 0
+6 < 6 || -(-8) > 0
+6 < 6 || 8 > 0
+true
