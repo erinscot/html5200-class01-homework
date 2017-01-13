@@ -1,4 +1,4 @@
-//starts with the third problem on the homwork, since we didn't do it in class.
+//starts with the third problem on the homework, since we didn't do it in class.
 
 true && 5 * 2 > (3 + 3) * 2
 true && 5 * 2 > 6 * 2
